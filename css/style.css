@@ -48,6 +48,10 @@ video{
 #featured-items  .featured-container div h2{
     text-align: left;
 }
+.img-home{
+    width: 25rem;
+    height: 25rem;
+}
 #footer h3{
     color: white;
 }
