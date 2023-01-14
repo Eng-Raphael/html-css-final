@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/framework.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/forms.css">
+  <link rel="stylesheet" href="./css/media-query.css">
+  <title>HTML Project</title>
+</head>
+<body>
+<nav id="main-nav">
+  <a href="index.html" class="logo-a"><img src="img/logos/logo.png" class="img-logo"></a>
+  <ul class="ul-item">
+    <li class="item">
+      <a href="index.html" ><span class="letter-color">H</span>ome</a>
+    </li>
+    <li class="item">
+      <a href="contact-us.html"><span class="letter-color">C</span>ontact-us</a>
+    </li>
+    <li class="item">
+      <a href="table.html"><span class="letter-color">U</span>sers</a>
+    </li>
+    <li class="item">
+      <a href="login.html"><span class="letter-color">L</span>ogin</a>
+    </li>
+    <li class="item">
+      <a href="register.html" class="link-active"><span class="letter-color">R</span>egister</a>
+    </li>
+  </ul>
+</nav>
+<div class="clr"></div>
+
+
+<section id="contact-us">
+  <div id="container">
+    <div class="form-wrap">
+      <h1>Register</h1>
+      <p>It's free and only takes a minute</p>
+      <form>
+        <div class="form-group">
+          <label for="first-name">First Name</label>
+          <input type="text" name="firstName" id="first-name"/>
+        </div>
+        <div class="form-group">
+          <label for="last-name">last Name</label>
+          <input type="text" name="lastName" id="last-name"/>
+        </div>
+        <div >
+          <label style="margin-right: 30px;" >Gender</label>
+          <input type="radio" name="membership" value="simple" id="gender1" checked> Male
+          <input type="radio" name="membership" value="standard" id="gender2" > Female
+        </div>
+        <div class="form-group">
+          <label for="user-email">Email</label>
+          <input type="email" name="useremail" id="user-email"/>
+        </div>
+        <div class="form-group">
+          <label for="user-name">User Name</label>
+          <input type="text" name="UserName" id="user-name"/>
+        </div>
+        <div class="form-group">
+          <label for="pass">Password</label>
+          <input type="password" name="password" id="pass" />
+        </div>
+        <button type="submit" class="btn">Register</button>
+        <p class="bottom-text">
+          By clicking the Send Message button, you agree to our
+          <a href="register.html">Terms & Conditions</a> and
+          <a href="register.html">Privacy Policy</a>
+        </p>
+      </form>
+    </div>
+    <footer id="form-footer">
+      <p>Already have an account? <a href="login.html">Login Here</a></p>
+    </footer>
+  </div>
+</section>
+
+
+
+
+<div class="clr"></div>
+<footer id="footer">
+  <br><br>
+  <h3 class="footer-text">All Copyright Reserved  &copy;2023</h3>
+  <div class="footer-items">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-square-instagram"></i>
+    <i class="fa-brands fa-youtube"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-telegram"></i>
+    <i class="fa-brands fa-square-whatsapp"></i>
+  </div>
+</footer>
+</body>
+</html>
